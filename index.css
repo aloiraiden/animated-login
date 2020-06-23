@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    margin-top: 0px;
+    background: rgb(10, 23, 36);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.644);
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid cyan;
+}
+
+.login h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border: 2px solid rgb(77, 93, 245);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+    outline: 0;
+    padding: 20px 4px;
+}
+
+.login input[type="text"]:hover,
+.login input[type="password"]:hover {
+    background: none;
+    width: 250px;
+    border: 2px solid rgb(0, 255, 13);
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+    background: none;
+    width: 250px;
+    border: 2px solid rgb(0, 255, 13);
+}
+
+.login .sumb {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border: 2px solid rgb(0, 255, 13);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+    outline: 0;
+    padding: 20px 4px;
+}
